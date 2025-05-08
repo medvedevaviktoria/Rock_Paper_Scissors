@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/image_player_choice"
+        android:id="@+id/imagePlayerChoice"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginTop="4dp"
@@ -20,7 +20,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/image_bot_choice"
+        android:id="@+id/imageBotChoice"
         android:layout_width="125dp"
         android:layout_height="125dp"
         android:layout_marginTop="4dp"
@@ -46,7 +46,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_start_game"
+        android:id="@+id/buttonStart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -62,7 +62,7 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/button_spock"
+        android:id="@+id/buttonSpock"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:layout_marginTop="4dp"
@@ -72,11 +72,11 @@
         app:cornerRadius="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_scissors"
+        app:layout_constraintTop_toBottomOf="@+id/buttonScissors"
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/button_rock"
+        android:id="@+id/buttonRock"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:layout_marginTop="12dp"
@@ -87,11 +87,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_player_choice"
+        app:layout_constraintTop_toBottomOf="@+id/imagePlayerChoice"
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/button_lizard"
+        android:id="@+id/buttonLizard"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:onClick="playerMakesAChoice"
@@ -102,12 +102,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_bot_choice"
+        app:layout_constraintTop_toBottomOf="@+id/imageBotChoice"
         app:layout_constraintVertical_bias="0.065"
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/button_paper"
+        android:id="@+id/buttonPaper"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:layout_marginTop="12dp"
@@ -118,11 +118,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.341"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_player_choice"
+        app:layout_constraintTop_toBottomOf="@+id/imagePlayerChoice"
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/button_scissors"
+        android:id="@+id/buttonScissors"
         android:layout_width="125dp"
         android:layout_height="50dp"
         android:layout_marginTop="12dp"
@@ -133,7 +133,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.656"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_bot_choice"
+        app:layout_constraintTop_toBottomOf="@+id/imageBotChoice"
         tools:ignore="HardcodedText" />
 
     <TextView
